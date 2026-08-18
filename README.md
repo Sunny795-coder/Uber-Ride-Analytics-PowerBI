@@ -87,25 +87,31 @@ related to:
 
 ### Home Page
 
-![Home Page](Screenshots/Home.png)
+![Home Page](Dashboard/Screenshots/Home.png)
 
 ### Overview Page
 
-![Overview Page](Screenshots/Overview.png)
+![Overview Page](Dashboard/Screenshots/Overview.png)
 
 ### Vehicle Analysis
 
-![Auto](Screenshots/Auto.png)
+#### Auto
+![Auto](Dashboard/Screenshots/Auto.png)
 
-![Bike](Screenshots/Bike.png)
+#### Bike
+![Bike](Dashboard/Screenshots/Bike.png)
 
-![Go Mini](Screenshots/Go-Mini.png)
+#### Go Mini
+![Go Mini](Dashboard/Screenshots/Go-Mini.png)
 
-![Go Sedan](Screenshots/Go-Sedan.png)
+#### Go Sedan
+![Go Sedan](Dashboard/Screenshots/Go-Sedan.png)
 
-![Premier Sedan](Screenshots/Premier-Sedan.png)
+#### Premier Sedan
+![Premier Sedan](Dashboard/Screenshots/Premier-Sedan.png)
 
-![Uber XL](Screenshots/Uber-XL.png)
+#### Uber XL
+![Uber XL](Dashboard/Screenshots/Uber-XL.png)
 
 ## Project Structure
 
@@ -115,20 +121,18 @@ Uber-Ride-Analytics-PowerBI/
 ├── README.md
 │
 ├── Dashboard/
-│   └── Uber-Ride-Analytics.pbix
+│   ├── Uber-Ride-Analytics.pbix
+│   └── Screenshots/
+│       ├── Home.png
+│       ├── Auto.png
+│       ├── Bike.png
+│       ├── Go-Mini.png
+│       ├── Go-Sedan.png
+│       ├── Premier-Sedan.png
+│       └── Uber-XL.png
 │
-├── Data/
-│   └── Uber_Ride_Data.xlsx
-│
-└── Screenshots/
-    ├── Home.png
-    ├── Overview.png
-    ├── Auto.png
-    ├── Bike.png
-    ├── Go-Mini.png
-    ├── Go-Sedan.png
-    ├── Premier-Sedan.png
-    └── Uber-XL.png
+└── Data/
+    └── Uber_Ride_Data.xlsx
 ```
 
 ## Project Objective
