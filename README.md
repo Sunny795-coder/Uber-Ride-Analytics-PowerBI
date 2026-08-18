@@ -89,9 +89,8 @@ related to:
 
 ![Home Page](Dashboard/Screenshots/Home.png)
 
-### Overview Page
+## Overview Page
 
-![Overview Page](Dashboard/Screenshots/Overview.png)
 
 ### Vehicle Analysis
 
