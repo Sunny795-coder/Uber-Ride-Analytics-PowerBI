@@ -9,13 +9,16 @@ The dashboard provides an overview of ride performance and allows users
 to explore individual vehicle categories through an interactive vehicle
 selector.
 
+## Project Objective
+
+The objective of this project is to transform raw ride-booking data into an interactive Power BI dashboard to monitor booking performance, revenue, ride distance, ratings, and vehicle-level trends.
+
 ## Dashboard
 
-The dashboard contains two main pages:
+The dashboard consists of two main pages:
 
--   **Home** -- Introduction and navigation to the analysis page.
--   **Overview** -- Interactive analysis of booking performance,
-    revenue, distance, ratings, and locations.
+- **Home** – Provides an introduction to the dashboard and navigation to the analysis page.
+- **Overview** – Provides interactive analysis of booking performance, revenue, distance, ratings, locations, and vehicle categories.
 
 ## Key Metrics
 
@@ -29,24 +32,14 @@ The dashboard contains two main pages:
 
 ## Key Insights
 
-Based on the dataset used for the dashboard:
+Based on the dashboard analysis:
 
--   **Auto** recorded the highest revenue among all vehicle categories,
-    generating approximately **12.88M** in booking value.
--   **Auto** also had the highest number of completed bookings, with
-    approximately **23.2K** completed rides.
--   **Go Mini** was the second-highest vehicle category by revenue,
-    generating approximately **10.34M**.
--   **Uber XL** had the lowest booking volume and revenue among the
-    vehicle categories, with approximately **2.8K completed bookings**
-    and **1.53M** in booking value.
--   Quarterly revenue remained relatively stable, ranging from
-    approximately **12.80M to 13.08M**, with **Q4 recording the highest
-    revenue**.
--   The overall average customer rating was approximately **4.40**,
-    while the average driver rating was approximately **4.23**.
--   **UPI** was the largest payment method by booking value in the
-    dataset.
+- **Auto** generated the highest revenue among all vehicle categories, with approximately **12.88M** in booking value.
+- **Auto** also recorded the highest number of completed bookings, with approximately **23.2K** completed rides.
+- **Bike** ranked second in revenue with approximately **11.46M**, followed by **Go Mini** with approximately **10.34M**.
+- **Uber XL** recorded the lowest booking volume and revenue, with approximately **2.8K** completed bookings and **1.53M** in booking value.
+- Quarterly revenue remained relatively stable, ranging from approximately **12.80M to 13.08M**, with **Q4 recording the highest revenue**.
+- The overall average **customer rating was approximately 4.40**, while the average **driver rating was approximately 4.23**.
 
 ## Analysis
 
@@ -69,19 +62,18 @@ The dashboard provides insights into:
 
 ## Dataset
 
-The dataset contains **150,000 ride booking records** with information
-related to:
+The dataset contains approximately **150,000 ride-booking records** covering:
 
--   Booking date and time
--   Booking status
--   Vehicle type
--   Pickup and drop locations
--   Cancellation reasons
--   Booking value
--   Ride distance
--   Driver ratings
--   Customer ratings
--   Payment method
+- Booking date and time
+- Booking status
+- Vehicle type
+- Pickup and drop locations
+- Cancellation reasons
+- Booking value
+- Ride distance
+- Driver ratings
+- Customer ratings
+- Payment method
 
 ## Dashboard Preview
 
@@ -133,12 +125,5 @@ Uber-Ride-Analytics-PowerBI/
 └── Data/
     └── Uber_Ride_Data.xlsx
 ```
-
-## Project Objective
-
-The objective of this project is to transform raw ride-booking data into
-an interactive business intelligence dashboard that can be used to
-monitor operational performance and identify trends across vehicle
-categories.
 
 ------------------------------------------------------------------------
